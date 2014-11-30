@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<properties>
+  <!--  The input root gives the root directory where the input files
+        are located. -->
+  <property key="inputRoot" value="/user/data/feed"/>
+
+  <!--  The output root gives the root directory where the output files
+        are located. -->
+  <property key="outputRoot" value="/user/data/feed"/>
+
+  <!--  Name of the hbase geospatial table -->
+  <property key="hbaseGeospatialName" value="geostore.geo"/>
+
+  <!--  Name of the hbase entity table -->
+  <property key="hbaseEntityName" value="geostore.entity"/>
+
+</properties>
